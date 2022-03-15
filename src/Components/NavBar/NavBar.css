@@ -1,5 +1,43 @@
+header {
+    background-color: #F0BCD4;
+    width: 750px;
+}
+
 nav {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
-    background-color: #F0BCD4;
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 8px;
+}
+
+li {
+    margin: 0 21px 0 21px;
+}
+
+.link {
+    display: inline-block;
+    background-color: #DA4167;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 21px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: #BB254B;
+}
+
+.active-link {
+    background-color: #BB254B;
 }

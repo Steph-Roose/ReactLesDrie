@@ -1,5 +1,5 @@
 import React from 'react';
-import posts from '../data/posts.json';
+import posts from '../../data/posts.json';
 import {Link} from "react-router-dom";
 
 function BlogPostsPage() {

@@ -4,21 +4,23 @@ import './NavBar.css';
 
 function NavBar() {
     return (
-        <nav>
-            <ul>
-                <li>
-                    <NavLink to="/" exact activeClassName="active-link">Home</NavLink>
-                </li>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <NavLink to="/" exact className="link" activeClassName="active-link">Home</NavLink>
+                    </li>
 
-                <li>
-                    <NavLink to="/login" activeClassName="active-link">Login</NavLink>
-                </li>
+                    <li>
+                        <NavLink to="/login" className="link" activeClassName="active-link">Login</NavLink>
+                    </li>
 
-                <li>
-                    <NavLink to="/blogposts" activeClassName="active-link">Blog Overzicht</NavLink>
-                </li>
-            </ul>
-        </nav>
+                    <li>
+                        <NavLink to="/blogposts" className="link" activeClassName="active-link">Blogs</NavLink>
+                    </li>
+                </ul>
+            </nav>
+        </header>
     );
 }
 

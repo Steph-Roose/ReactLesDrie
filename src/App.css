@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: #000000;
+  background-color: #FAF1F0;
+  height: 100%;
+  width: 750px;
+  margin: 0 100px 0 100px;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  text-transform: none;
+}
